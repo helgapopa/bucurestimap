@@ -1,0 +1,89 @@
+/* Global */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('../img/abstract-colors-colorful-rainbow-background-fon-tsvet-raduga.jpg');
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/* Nav Styles */
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.left-side {
+    display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+    color: #4e4747;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover {
+    color: black;
+}
+
+.active-nav-link {
+    border-bottom: 1px solid black;
+}
+
+.active-nav-link a {
+    color: black !important;
+}
+
+.right-side > div > ul > li > a{
+    margin: 0 5px 0 5px;
+    display: inline;
+}
+
+.nav-link{
+    color: #4e4747;
+}
+
+.nav-item a:hover {
+    color: black;
+}
+
+/* Text */
+.text {
+    text-align: center;
+    margin: 0 0 3% 0;
+}
+
+/* Map Styles */
+#map {
+    width: 100%;
+    height: 50%;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin: 6% 0 2% 0;
+}
